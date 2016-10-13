@@ -1,0 +1,4 @@
+@import url(style.css2);
+h1{
+	color:red
+}

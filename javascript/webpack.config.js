@@ -1,0 +1,13 @@
+module.exports={
+	entry:"./es6.js",
+	output:{
+		filename:"main.js"
+	},
+	module:{
+		loaders:[{
+			test:/\.js$/,
+			loader:"babel",
+			query:{presets:["es2015"]}
+		}]
+	}
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+<style type="text/css">
+		.big{
+			width: 200px;
+			height: 200px;
+			background-color: yellow;
+		}
+		.small{
+			width: 100px;
+			height: 100px;
+			background-color: red;
+			border:1px solid white;
+		}
+	</style>
+</head>
+<body>
+	<div class="big">
+		<div class="small">he</div>
+		<div class="small">lo</div>
+	</div>
+	<script>
+		document.querySelector(".big").onclick=function(event){
+			alert(event.target.innerHTML)
+		}
+		
+	</script>
+</body>
+</html>
